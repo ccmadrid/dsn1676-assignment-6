@@ -99,7 +99,7 @@ div {
 
 @-webkit-keyframes bounce {
   0% {
-    -webkit-transform: translate(0px,);
+    -webkit-transform: translate(0px);
   }
   25% {
     -webkit-transform: translate(-50px, -25px);
@@ -112,7 +112,6 @@ div {
   }
   100% {
     -webkit-transform: translate(-200px, 10px);
-  }
   }
 }
 
