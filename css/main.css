@@ -83,11 +83,6 @@ div {
   padding: 3rem 0;
 }
 
-.js-collapse-expand {
-  -webkit-transform: height(0);
-  transform: height(0);
-}
-
 .circle {
   height: 100px;
   top: calc(50% - 50px);
