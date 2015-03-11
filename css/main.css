@@ -117,7 +117,7 @@ div {
 
 @keyframes bounce {
   0% {
-    transform: translate(0px,);
+    transform: translate(0px);
   }
   25% {
     transform: translate(-50px, -25px);
