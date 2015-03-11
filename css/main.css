@@ -98,25 +98,44 @@ div {
 }
 
 .js-bounce {
-  -webkit-animation: bounce 0.5s ease-in-out;
-  animation: bounce 0.5s ease-in-out;
+  -webkit-animation: bounce 0.75s ease-in-out;
+  animation: bounce 0.75s ease-in-out;
 }
 
 @-webkit-keyframes bounce {
-  0%{
-    -webkit-transform: translateY(10px);
+  0% {
+    -webkit-transform: translate(0px,);
+  }
+  25% {
+    -webkit-transform: translate(-50px, -25px);
+  }
+  50% {
+    -webkit-transform: translate(-100px, 20px);
+  }
+  75% {
+    -webkit-transform: translate(-150px, -15px);
   }
   100% {
-    -webkit-transform: translateY(-10px);
+    -webkit-transform: translate(-200px, 10px);
+  }
   }
 }
 
 @keyframes bounce {
-  0%{
-    transform: translateY(10px);
+  0% {
+    transform: translate(0px,);
+  }
+  25% {
+    transform: translate(-50px, -25px);
+  }
+  50% {
+    transform: translate(-100px, 20px);
+  }
+  75% {
+    transform: translate(-150px, -15px);
   }
   100% {
-    transform: translateY(-10px);
+    transform: translate(-200px, 10px);
   }
 }
 
